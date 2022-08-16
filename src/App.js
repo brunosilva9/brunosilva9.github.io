@@ -1,11 +1,16 @@
 import './App.css';
-
+import Introduction from './components/Introduction';
+import LanguageSelector from './components/LanguageSelector';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <p>Hello world</p>
+        <LanguageSelector />
+        <Introduction/>
+
       </header>
+    
+
     </div>
   );
 }
