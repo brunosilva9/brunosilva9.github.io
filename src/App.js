@@ -1,16 +1,16 @@
 import './App.css';
 import Introduction from './components/Introduction';
 import LanguageSelector from './components/LanguageSelector';
+import ModalExampleModal from './components/ModalExampleModal'
+import React from 'react'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      
         <LanguageSelector />
-        <Introduction/>
-
-      </header>
-    
-
+        <Introduction/>   
+  
+      <ModalExampleModal/>
     </div>
   );
 }

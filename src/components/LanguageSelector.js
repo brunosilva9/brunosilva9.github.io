@@ -3,6 +3,14 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { useRememberState } from "use-remember-state";
 import { useEffect } from "react";
+import { Dropdown } from 'semantic-ui-react'
+
+
+const languageOptions = [
+  { key: 'English', text: 'English', value: 'en', flag: "ireland" },
+  { key: 'Spanish', text: 'Español', value: 'es', flag: "chile" },
+]
+
 
 const LanguageSelector = () => {
   const { i18n } = useTranslation('global');
@@ -10,12 +18,35 @@ const LanguageSelector = () => {
 
   useEffect(() => {
     i18n.changeLanguage(lng)
-  }, [lng,i18n]);
+  }, [lng, i18n]);
 
   return (
     <div>
-      <button onClick={() => setLng("es")}> ES </button>
-      <button onClick={() => setLng("en")}> EN </button>
+
+      <Dropdown
+        button
+        className='icon'
+        floating
+        labeled
+        icon='world'
+        //options={languageOptions}
+        search
+        text='Select Language'
+      >
+        <Dropdown.Menu>
+          {languageOptions.map(lang => (
+
+            <Dropdown.Item
+              key={lang.key}
+              flag={lang.flag}
+              value={lang.value}
+              text={lang.text}
+              onClick={() => setLng(lang.value)}
+              
+            />
+          ))}
+        </Dropdown.Menu>
+      </Dropdown>
     </div>
 
   );
