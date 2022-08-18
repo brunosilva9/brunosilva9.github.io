@@ -6,5 +6,18 @@
   "Advantagesdetails.label": "Flexibilidad de usar otro paquetes: Flexible de  usar otros librerias",
   "Modal.button": "Mostar Modal",
   "Modal.header": "Gracias!",
-  "Mocal.Description": "Su subscricion se a realizado con exito"
+  "Modal.Description": "Su subscricion se a realizado con exito",
+  "404.details":"Pagina no encontrada. 404",
+  "home.details":"Pagina principal ",
+  "layaout":{
+    "home":"Pagina Principal",
+    "modalExample":"Ejemplo Modal",
+    "ApiTest": "Test Api"
+  },
+  "testApi":{
+    "header":"Test encabezado",
+    "body":"body cuerpo"
+  }
+
+
 }

@@ -6,5 +6,17 @@
   "Advantagesdetails.label": "Flexibility to use other packages: Flexibility to use other packages",
   "Modal.button":"Show Modal",
   "Modal.header":"Thank you!",
-  "Mocal.Description":"Your subscription has been confirmed"
+  "Modal.Description":"Your subscription has been confirmed",
+  "404.details":"Page no found. 404",
+  "home.details":"Home Page ",
+  "layaout":{
+    "home":"Home",
+    "modalExample":"Modal Example",
+    "ApiTest": "Api Test"
+  },
+  "testApi":{
+    "header":"Test header",
+    "body":"body TestS api"
+  }
+  
 }
