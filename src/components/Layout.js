@@ -19,6 +19,9 @@ const Layout = () => {
                     <li>
                         <Link to="/ApiTest">{t("layaout.ApiTest" )}</Link>
                     </li>
+                    <li>
+                        <Link to="/MultiTap">{"Multi Tap"}</Link>
+                    </li>
                 </ul>
             </nav>
             <Outlet />
