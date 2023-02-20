@@ -5,7 +5,8 @@ Moumantai
 ## Dependencies
 semantic-ui
 i18next
-
+axio
+gh-pages
 ### Light Dependencies
 
-locla stage manager: npm i use-remember-state
+local stage manager: npm i use-remember-state
