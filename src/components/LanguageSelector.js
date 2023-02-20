@@ -21,7 +21,7 @@ const LanguageSelector = () => {
   }, [lng, i18n]);
 
   return (
-    <div>
+    <div className="LanguageSelector">
 
       <Dropdown
         button
@@ -31,7 +31,7 @@ const LanguageSelector = () => {
         icon='world'
         //options={languageOptions}
         search
-        text='Select Language'
+        text='En-ES'
       >
         <Dropdown.Menu>
           {languageOptions.map(lang => (
