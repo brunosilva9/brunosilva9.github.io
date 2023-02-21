@@ -4,19 +4,19 @@
   "details.label": "is an internationalization-framework which offers a complete solution to localize your product from web to mobile and desktop:is an internationalization-framework which offers a complete solution to localize your product from web to mobile and desktop",
   "Advantages.label": "Advantages",
   "Advantagesdetails.label": "Flexibility to use other packages: Flexibility to use other packages",
-  "Modal.button":"Show Modal",
-  "Modal.header":"Thank you!",
-  "Modal.Description":"Your subscription has been confirmed",
-  "404.details":"Page no found. 404",
-  "home.details":"Home Page ",
-  "layaout":{
-    "home":"Home",
-    "modalExample":"Modal Example",
+  "Modal.button": "Show Modal",
+  "Modal.header": "Thank you!",
+  "Modal.Description": "Your subscription has been confirmed",
+  "404.details": "Page no found. 404",
+  "home.details": "Home Page ",
+  "layaout": {
+    "home": "Home",
+    "modalExample": "Modal Example",
     "ApiTest": "Api Test"
   },
-  "testApi":{
-    "header":"Test header",
-    "body":"body TestS api"
+  "testApi": {
+    "header": "Test header",
+    "body": "body TestS api",
+    "loading": "SW Api Rest is loading"
   }
-  
 }

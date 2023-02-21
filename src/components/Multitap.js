@@ -1,19 +1,19 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const multitap = {
-  '2': 'abc',
-  '3': 'def',
-  '4': 'ghi',
-  '5': 'jkl',
-  '6': 'mno',
-  '7': 'pqrs',
-  '8': 'tuv',
-  '9': 'wxyz'
+  2: "abc",
+  3: "def",
+  4: "ghi",
+  5: "jkl",
+  6: "mno",
+  7: "pqrs",
+  8: "tuv",
+  9: "wxyz",
 };
 
 const Multitap = () => {
-  const [message, setMessage] = useState('');
-  const [encoded, setEncoded] = useState('');
+  const [message, setMessage] = useState("");
+  const [encoded, setEncoded] = useState("");
 
   const handleChange = (e) => {
     setMessage(e.target.value);
@@ -22,9 +22,9 @@ const Multitap = () => {
   const handleEncode = () => {
     const encodedMessage = message
       .toLowerCase()
-      .split('')
+      .split("")
       .map((char) => {
-        if(char === " ") return "0";
+        if (char === " ") return "0";
         for (let key in multitap) {
           if (multitap[key].includes(char)) {
             return key.repeat(multitap[key].indexOf(char) + 1);
@@ -32,23 +32,20 @@ const Multitap = () => {
         }
         return char;
       })
-      .join('')
+      .join("")
       .match(/(\d)\1*/g)
-      .join('.');
+      .join(".");
     setEncoded(encodedMessage);
   };
 
   const handleDecode = () => {
-    const decodedMessage = encoded
-      .split('.')
-      .reduce((acc, curr) => {
-        if(curr === "0") return acc += " ";
-        acc += multitap[curr[0]][curr.length-1]
-        return acc;
-      }, "");
+    const decodedMessage = encoded.split(".").reduce((acc, curr) => {
+      if (curr === "0") return (acc += " ");
+      acc += multitap[curr[0]][curr.length - 1];
+      return acc;
+    }, "");
     setMessage(decodedMessage);
   };
-
 
   return (
     <div>

@@ -1,14 +1,14 @@
-import './App.css';
+import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Introduction from './components/Introduction';
-import ModalExampleModal from './components/ModalExampleModal';
-import ApiTest from './components/ApiTest';
-import React from 'react'
-import NoPage from './components/NoPage';
-import Home from './components/Home';
-import Layout from './components/Layout';
-import Multitap from './components/Multitap';
-import Container from './components/Container';
+import Introduction from "./components/Introduction";
+import ModalExampleModal from "./components/ModalExampleModal";
+import ApiTest from "./components/ApiTest";
+import React from "react";
+import NoPage from "./components/NoPage";
+import Home from "./components/Home";
+import Layout from "./components/Layout";
+import Multitap from "./components/Multitap";
+import Container from "./components/Container";
 
 function App() {
   return (

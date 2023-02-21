@@ -2,9 +2,8 @@ import React from "react";
 
 import { useTranslation } from "react-i18next";
 
-
 const Introduction = () => {
-  const { t } = useTranslation('global');
+  const { t } = useTranslation("global");
   return (
     <div>
       <div style={{ textAlign: "center", fontWeight: "500" }}>
@@ -12,10 +11,7 @@ const Introduction = () => {
       </div>
       {t("details.label")}
     </div>
-
   );
-
 };
-
 
 export default Introduction;
