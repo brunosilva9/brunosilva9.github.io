@@ -18,5 +18,8 @@
     "header": "Test encabezado",
     "body": "body cuerpo",
     "loading": "SW Api Rest esta Cargando"
+  },
+  "multiTap": {
+    "copy": "Copiar"
   }
 }

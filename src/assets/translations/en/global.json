@@ -18,5 +18,8 @@
     "header": "Test header",
     "body": "body TestS api",
     "loading": "SW Api Rest is loading"
+  },
+  "multiTap": {
+    "copy": "Copy"
   }
 }
