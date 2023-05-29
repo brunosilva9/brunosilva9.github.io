@@ -9,6 +9,7 @@ import Home from "./components/Home";
 import Layout from "./components/Layout";
 import Multitap from "./components/Multitap";
 import Container from "./components/Container";
+import DinamicGraph from "./components/DinamicGraph";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="ModalExampleModal" element={<ModalExampleModal />} />
             <Route path="ApiTest" element={<ApiTest />} />
             <Route path="Multitap" element={<Multitap />} />
+            <Route path="DinamicGraph" element={<DinamicGraph />} />
             <Route path="*" element={<NoPage />} />
           </Route>
         </Routes>

@@ -33,6 +33,11 @@ const Layout = () => {
               {"Multi Tap"}
             </Link>
           </NavItem>
+          <NavItem>
+            <Link to="/DinamicGraph" className="nav-link">
+            {t("DynamicGraph.DynamicGraph")}
+            </Link>
+          </NavItem>
         </Nav>
         <Nav navbar>
           <NavItem>

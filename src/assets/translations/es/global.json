@@ -21,5 +21,11 @@
   },
   "multiTap": {
     "copy": "Copiar"
+  },
+  "DynamicGraph": {
+    "StartTime": "Tiempo Inicial:",
+    "EndTime": "Tiempo Final:",
+    "YourData": "Tu Informacion",
+    "DynamicGraph": "Grafico Dinamico"
   }
 }
